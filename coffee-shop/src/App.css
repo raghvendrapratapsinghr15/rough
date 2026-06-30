@@ -1,0 +1,46 @@
+/* App.css — Global resets and base styles */
+
+/* ── Import Google Fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+/* ── CSS Reset ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Base ── */
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #fdf6ec;
+  color: #2a1000;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar (webkit) ── */
+::-webkit-scrollbar        { width: 8px; }
+::-webkit-scrollbar-track  { background: #1a0a00; }
+::-webkit-scrollbar-thumb  { background: #a05c12; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #c8832a; }
+
+/* ── Focus visible ── */
+:focus-visible {
+  outline: 2px solid #c8832a;
+  outline-offset: 2px;
+}
+
+/* ── Selection ── */
+::selection {
+  background: rgba(200, 131, 42, 0.35);
+  color: #2a1000;
+}
