@@ -75,7 +75,7 @@ const Menu = () => (
     {/* Section header */}
     <div className="menu__header">
       <span className="menu__label">Our Menu</span>
-      <h2 className="menu__title">Handcrafted with Passion</h2>
+      <h2 className="menu__title">Handcraftedddd with Passion</h2>
       <p className="menu__subtitle">
         Every cup is freshly prepared using premium single-origin beans
         and time-honoured brewing techniques.
